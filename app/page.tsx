@@ -20,8 +20,8 @@ export default function HomePage() {
           This Week&apos;s Menu
         </h1>
         <p className="text-lg text-stone-500 max-w-xl mx-auto">
-          Chef-crafted dinners, breakfasts, and snacks — pre-prepped and
-          delivered fresh to your door. Choose your serving size at checkout.
+          Fully cooked, chef-crafted meals delivered fresh to your door.
+          Just reheat, assemble, and enjoy. Choose your serving size at checkout.
         </p>
         <div className="flex flex-wrap justify-center gap-4 text-sm text-stone-500 pt-2">
           <div className="flex items-center gap-1.5">
@@ -34,7 +34,7 @@ export default function HomePage() {
             <svg className="w-4 h-4 text-orange-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
             </svg>
-            Pre-prepped &amp; easy to cook
+            Fully cooked &amp; ready to reheat
           </div>
           <div className="flex items-center gap-1.5">
             <svg className="w-4 h-4 text-orange-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -121,15 +121,15 @@ export default function HomePage() {
             },
             {
               step: "2",
-              icon: "📦",
-              title: "We Prep & Deliver",
-              desc: "Ingredients arrive fresh, pre-measured, and ready to cook.",
+              icon: "👨‍🍳",
+              title: "We Cook & Pack",
+              desc: "Our chef team fully cooks every meal and vacuum-seals it fresh for delivery.",
             },
             {
               step: "3",
               icon: "🍽️",
-              title: "Cook & Enjoy",
-              desc: "Follow simple step-by-step instructions and enjoy in 30 min or less.",
+              title: "Reheat & Enjoy",
+              desc: "Follow the included instructions — most meals are on the table in 15 minutes or less.",
             },
           ].map(({ step, icon, title, desc }) => (
             <div key={step} className="space-y-3">

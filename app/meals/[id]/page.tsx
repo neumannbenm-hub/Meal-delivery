@@ -93,7 +93,14 @@ export default function MealDetailPage({
               <svg className="w-4 h-4 text-stone-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
               </svg>
-              <span>{meal.prepTime} prep · {meal.cookTime} cook</span>
+              <span>
+                {meal.prepTime !== "0 min"
+                  ? `${meal.prepTime} assembly · `
+                  : ""}
+                {meal.cookTime === "0 min"
+                  ? "Ready to serve"
+                  : meal.cookTime}
+              </span>
             </div>
           </div>
 

@@ -8,7 +8,7 @@ export const meals: Meal[] = [
     description:
       "Free-range chicken roasted with fresh rosemary, thyme, and garlic over seasonal root vegetables.",
     longDescription:
-      "Our free-range chicken is dry-brined overnight then slow-roasted to golden perfection with a fragrant blend of fresh rosemary, thyme, and whole garlic cloves. Served alongside caramelized root vegetables — parsnips, carrots, and sweet potato — finished with a rich pan-dripping jus. Everything you need arrives pre-prepped and ready to roast.",
+      "Our free-range chicken is dry-brined overnight then slow-roasted to golden perfection with a fragrant blend of fresh rosemary, thyme, and whole garlic cloves, alongside caramelized root vegetables and a rich pan-dripping jus. Everything arrives fully cooked and vacuum-sealed. Just reheat in the oven for 15 minutes using the included instructions and it's ready to plate.",
     category: "dinner",
     dayOfWeek: "Monday",
     images: [
@@ -25,8 +25,8 @@ export const meals: Meal[] = [
       sodium: 680,
     },
     pricing: { serves1: 16.99, serves2: 29.99, family: 54.99 },
-    prepTime: "15 min",
-    cookTime: "45 min",
+    prepTime: "5 min",
+    cookTime: "15 min reheat",
     tags: ["Gluten-Free", "High Protein"],
     allergens: ["None"],
     ingredients: [
@@ -49,7 +49,7 @@ export const meals: Meal[] = [
     description:
       "Atlantic salmon fillets seared to crispy perfection with a bright lemon butter sauce and broccolini.",
     longDescription:
-      "Wild-caught Atlantic salmon fillets arrive skin-on and ready to sear. The bright lemon butter sauce — made with capers, fresh dill, and a splash of white wine — comes together in minutes in the same pan. Served with tender broccolini and herbed quinoa. A restaurant-quality weeknight dinner in under 30 minutes.",
+      "Wild-caught Atlantic salmon, seared skin-crisp and paired with a bright lemon-caper-dill butter sauce, tender broccolini, and herbed quinoa. Everything is fully cooked and packaged separately to keep textures perfect. Reheat each component using the simple instructions included — dinner is on the table in 10 minutes.",
     category: "dinner",
     dayOfWeek: "Tuesday",
     images: [
@@ -66,8 +66,8 @@ export const meals: Meal[] = [
       sodium: 590,
     },
     pricing: { serves1: 19.99, serves2: 35.99, family: 64.99 },
-    prepTime: "10 min",
-    cookTime: "20 min",
+    prepTime: "0 min",
+    cookTime: "10 min reheat",
     tags: ["Gluten-Free", "High Protein", "Omega-3"],
     allergens: ["Fish", "Dairy", "Sulfites"],
     ingredients: [
@@ -90,7 +90,7 @@ export const meals: Meal[] = [
     description:
       "Slow-simmered beef and pork ragù with hand-rolled pappardelle pasta and aged Parmigiano-Reggiano.",
     longDescription:
-      "Our bolognese is made the traditional way — a blend of grass-fed beef and heritage pork, slow-braised in San Marzano tomatoes, dry red wine, and soffritto for deep, complex flavor. Paired with fresh hand-rolled pappardelle pasta and generously finished with aged Parmigiano-Reggiano. The sauce comes fully cooked; you just boil the pasta and assemble.",
+      "A blend of grass-fed beef and heritage pork, slow-braised in San Marzano tomatoes, dry red wine, and soffritto for deep, complex flavor. Both the ragù and the fresh pappardelle pasta arrive fully cooked. Reheat the sauce on the stovetop, warm the pasta briefly in the same pan, toss together, and finish with aged Parmigiano-Reggiano. On the table in 10 minutes.",
     category: "dinner",
     dayOfWeek: "Wednesday",
     images: [
@@ -107,8 +107,8 @@ export const meals: Meal[] = [
       sodium: 780,
     },
     pricing: { serves1: 14.99, serves2: 26.99, family: 49.99 },
-    prepTime: "10 min",
-    cookTime: "20 min",
+    prepTime: "0 min",
+    cookTime: "10 min reheat",
     tags: ["High Protein", "Classic"],
     allergens: ["Gluten", "Dairy", "Eggs"],
     ingredients: [
@@ -131,7 +131,7 @@ export const meals: Meal[] = [
     description:
       "Creamy Arborio risotto with a blend of wild mushrooms, truffle oil, and fresh Parmesan.",
     longDescription:
-      "A vegetarian showstopper. We source a blend of seasonal wild mushrooms — porcini, chanterelle, and cremini — that are sautéed in butter and shallots before being folded into slowly ladled risotto. The dish is finished with a drizzle of white truffle oil and a generous handful of freshly grated Parmesan. All mise en place is done; just stir and serve.",
+      "A vegetarian showstopper. Seasonal wild mushrooms — porcini, chanterelle, and cremini — sautéed in butter and shallots, folded into a fully cooked Arborio risotto, and finished with white truffle oil and Parmigiano-Reggiano. Arrives vacuum-sealed. Reheat gently on the stovetop with a splash of water or stock to restore its silky texture — ready in about 10 minutes.",
     category: "dinner",
     dayOfWeek: "Thursday",
     images: [
@@ -148,8 +148,8 @@ export const meals: Meal[] = [
       sodium: 640,
     },
     pricing: { serves1: 15.99, serves2: 28.99, family: 52.99 },
-    prepTime: "10 min",
-    cookTime: "30 min",
+    prepTime: "0 min",
+    cookTime: "10 min reheat",
     tags: ["Vegetarian", "Gluten-Free"],
     allergens: ["Dairy"],
     ingredients: [
@@ -171,7 +171,7 @@ export const meals: Meal[] = [
     description:
       "12oz prime ribeye, dry-aged 28 days, with crispy truffle parmesan frites and herb compound butter.",
     longDescription:
-      "A true date-night special. Our dry-aged prime ribeye arrives seasoned and ready to sear in minutes. The recipe walks you through achieving a perfect crust and desired internal temperature. Served with hand-cut truffle parmesan frites and a generous pat of roasted garlic herb compound butter that melts beautifully over the steak as it rests.",
+      "A true date-night special. Our 28-day dry-aged prime ribeye is seared to a perfect medium-rare crust in our kitchen and arrives with hand-cut truffle parmesan frites and roasted garlic herb compound butter. Everything is fully cooked. The included instructions walk you through a quick 10-minute reheat that crisps the frites and brings the steak back to temp beautifully.",
     category: "dinner",
     dayOfWeek: "Friday",
     images: [
@@ -188,8 +188,8 @@ export const meals: Meal[] = [
       sodium: 820,
     },
     pricing: { serves1: 24.99, serves2: 44.99, family: 79.99 },
-    prepTime: "15 min",
-    cookTime: "25 min",
+    prepTime: "0 min",
+    cookTime: "10 min reheat",
     tags: ["High Protein", "Premium", "Date Night"],
     allergens: ["Dairy"],
     ingredients: [
@@ -211,7 +211,7 @@ export const meals: Meal[] = [
     description:
       "Smoky chipotle-marinated Gulf shrimp with mango-avocado salsa, slaw, and warm corn tortillas.",
     longDescription:
-      "Gulf Coast shrimp marinated in a smoky chipotle-lime sauce arrive ready to sear in 5 minutes. Topped with a vibrant fresh mango and avocado salsa, house-made cilantro-lime slaw, and a drizzle of crema on warm stone-ground corn tortillas. Bright, fresh, and full of flavor — perfect for a casual Friday night.",
+      "Gulf Coast shrimp marinated in smoky chipotle-lime, fully cooked and packaged alongside fresh mango-avocado salsa, house-made cilantro-lime slaw, crema, and stone-ground corn tortillas. Reheat the shrimp in a pan for 3–4 minutes, warm the tortillas for 30 seconds, assemble, and serve. All instructions included — dinner on the table in under 10 minutes.",
     category: "dinner",
     dayOfWeek: "Saturday",
     images: [
@@ -228,8 +228,8 @@ export const meals: Meal[] = [
       sodium: 720,
     },
     pricing: { serves1: 16.99, serves2: 29.99, family: 54.99 },
-    prepTime: "15 min",
-    cookTime: "10 min",
+    prepTime: "5 min",
+    cookTime: "5 min reheat",
     tags: ["Gluten-Free", "Dairy-Free"],
     allergens: ["Shellfish"],
     ingredients: [
@@ -251,7 +251,7 @@ export const meals: Meal[] = [
     description:
       "Slow-braised bone-in short ribs in a rich red wine reduction with creamy Yukon gold mash.",
     longDescription:
-      "Our Sunday showstopper. Bone-in beef short ribs are braised low-and-slow in a deep red wine and beef stock reduction with aromatics until fork-tender and falling off the bone. The braise sauce is reduced to a glossy, intensely flavored glaze. Served over silky Yukon gold mashed potatoes with crispy fried shallots and fresh gremolata.",
+      "Bone-in beef short ribs slow-braised in our kitchen until fork-tender in a deep red wine and beef stock reduction, then paired with silky Yukon gold mashed potatoes and crispy fried shallots. Everything arrives fully cooked and vacuum-sealed. Reheat the ribs in the sauce on the stovetop and the mash in the microwave — both ready in about 15 minutes with the included instructions.",
     category: "dinner",
     dayOfWeek: "Sunday",
     images: [
@@ -268,8 +268,8 @@ export const meals: Meal[] = [
       sodium: 860,
     },
     pricing: { serves1: 22.99, serves2: 40.99, family: 74.99 },
-    prepTime: "20 min",
-    cookTime: "180 min",
+    prepTime: "0 min",
+    cookTime: "15 min reheat",
     tags: ["High Protein", "Comfort Food", "Premium"],
     allergens: ["Dairy", "Sulfites"],
     ingredients: [
@@ -294,7 +294,7 @@ export const meals: Meal[] = [
     description:
       "Creamy oats soaked overnight in oat milk with chia seeds, topped with warm berry compote and honey granola.",
     longDescription:
-      "Steel-cut oats soaked overnight in house-made oat milk with chia seeds and a touch of vanilla. In the morning, top with our warm mixed berry compote — made from locally sourced strawberries, blueberries, and blackberries — and a sprinkle of honey-toasted granola for crunch. A nourishing, no-cook breakfast that's ready when you are.",
+      "Steel-cut oats soaked overnight in house-made oat milk with chia seeds and vanilla — fully set and ready to eat straight from the fridge. The mixed berry compote arrives pre-made; warm it in the microwave for 90 seconds, spoon over the oats, and top with honey-toasted granola. No cooking required at all.",
     category: "breakfast",
     images: [
       "https://images.unsplash.com/photo-1517673400267-0ac5ee01d40b?w=900&auto=format&fit=crop",
@@ -310,9 +310,9 @@ export const meals: Meal[] = [
       sodium: 180,
     },
     pricing: { serves1: 7.99, serves2: 13.99, family: 24.99 },
-    prepTime: "10 min",
-    cookTime: "0 min (overnight soak)",
-    tags: ["Vegetarian", "High Fiber", "Make Ahead"],
+    prepTime: "0 min",
+    cookTime: "2 min reheat",
+    tags: ["Vegetarian", "High Fiber", "No Cook"],
     allergens: ["Gluten", "Tree Nuts"],
     ingredients: [
       "Steel-cut oats",
@@ -330,11 +330,11 @@ export const meals: Meal[] = [
   },
   {
     id: "avocado-toast",
-    name: "Smashed Avocado Toast & Poached Eggs",
+    name: "Smashed Avocado Toast & Soft Eggs",
     description:
-      "Sourdough toast with smashed avocado, poached eggs, everything bagel seasoning, and microgreens.",
+      "Sourdough toast with smashed avocado, soft-cooked eggs, everything bagel seasoning, and microgreens.",
     longDescription:
-      "Thick-cut local sourdough is toasted then layered with generously smashed Hass avocado seasoned with lemon, flaky salt, and red pepper flakes. Topped with two perfectly poached eggs, everything bagel seasoning, radish, and a tangle of fresh microgreens. Step-by-step poached egg instructions included — easier than you think.",
+      "Thick-cut local sourdough layered with smashed Hass avocado seasoned with lemon, flaky salt, and red pepper flakes. Topped with fully cooked soft eggs, everything bagel seasoning, sliced radish, and fresh microgreens. Everything arrives ready to assemble — just toast the bread for 2 minutes, pile on the toppings, and serve. Done in 5 minutes.",
     category: "breakfast",
     images: [
       "https://images.unsplash.com/photo-1541519227354-08fa5d50c820?w=900&auto=format&fit=crop",
@@ -350,8 +350,8 @@ export const meals: Meal[] = [
       sodium: 480,
     },
     pricing: { serves1: 9.99, serves2: 17.99, family: 31.99 },
-    prepTime: "10 min",
-    cookTime: "10 min",
+    prepTime: "0 min",
+    cookTime: "5 min assembly",
     tags: ["Vegetarian", "High Fiber"],
     allergens: ["Gluten", "Eggs"],
     ingredients: [
@@ -376,7 +376,7 @@ export const meals: Meal[] = [
     description:
       "Romaine and cucumber salad with grilled lemon herb chicken, Kalamata olives, and house tzatziki.",
     longDescription:
-      "Crisp romaine and English cucumber tossed with cherry tomatoes, Kalamata olives, pepperoncini, and creamy feta. Topped with grilled lemon-herb marinated chicken breast and a generous dollop of house-made tzatziki. The chicken arrives pre-marinated; just grill and slice. A light but satisfying lunch that's ready in 15 minutes.",
+      "Crisp romaine and English cucumber with cherry tomatoes, Kalamata olives, pepperoncini, and crumbled feta — all washed and portioned. Topped with fully cooked lemon-herb grilled chicken breast and a generous portion of house-made tzatziki. Everything arrives cold and ready to serve — just plate and drizzle. No reheating needed.",
     category: "lunch-snack",
     images: [
       "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=900&auto=format&fit=crop",
@@ -392,8 +392,8 @@ export const meals: Meal[] = [
       sodium: 680,
     },
     pricing: { serves1: 10.99, serves2: 19.99, family: 35.99 },
-    prepTime: "15 min",
-    cookTime: "12 min",
+    prepTime: "5 min",
+    cookTime: "0 min",
     tags: ["Gluten-Free", "High Protein"],
     allergens: ["Dairy"],
     ingredients: [
@@ -415,7 +415,7 @@ export const meals: Meal[] = [
     description:
       "House-blend trail mix with activated nuts, dried fruit, dark chocolate, and seasonal cut fruit.",
     longDescription:
-      "Our house trail mix features activated almonds, cashews, and walnuts with coconut flakes, tart dried cranberries, golden raisins, and 72% dark chocolate chunks. Paired with a generous portion of seasonally sourced fresh cut fruit — typically a mix of melon, berries, and citrus. Perfect for a mid-morning snack or school lunchbox.",
+      "Our house trail mix features activated almonds, cashews, and walnuts with coconut flakes, tart dried cranberries, golden raisins, and 72% dark chocolate chunks. Paired with freshly cut seasonal fruit. No prep, no reheating — everything arrives portioned and ready to open and enjoy.",
     category: "lunch-snack",
     images: [
       "https://images.unsplash.com/photo-1571748982800-fa51082c2224?w=900&auto=format&fit=crop",
@@ -453,7 +453,7 @@ export const meals: Meal[] = [
     description:
       "Tri-color quinoa with roasted sweet potato, crispy chickpeas, kale, and tahini-lemon dressing.",
     longDescription:
-      "A vibrant, plant-powered bowl built on a base of tri-color quinoa and massaged lacinato kale. Topped with cumin-spiced roasted sweet potato, crispy oven-roasted chickpeas, sliced avocado, pickled red onion, and pumpkin seeds. Drizzled with our bright tahini-lemon dressing. All components are pre-cooked; just reheat and assemble.",
+      "A vibrant, plant-powered bowl of tri-color quinoa, massaged lacinato kale, cumin-spiced roasted sweet potato, crispy chickpeas, sliced avocado, pickled red onion, and pumpkin seeds. Everything arrives fully cooked and portioned. Warm the grains and sweet potato in the microwave for 90 seconds, add the cold toppings, drizzle with included tahini-lemon dressing, and serve.",
     category: "lunch-snack",
     images: [
       "https://images.unsplash.com/photo-1546793665-c74683f339c1?w=900&auto=format&fit=crop",
@@ -469,8 +469,8 @@ export const meals: Meal[] = [
       sodium: 540,
     },
     pricing: { serves1: 11.99, serves2: 20.99, family: 37.99 },
-    prepTime: "10 min",
-    cookTime: "5 min (reheat)",
+    prepTime: "0 min",
+    cookTime: "5 min reheat",
     tags: ["Vegan", "Gluten-Free", "High Fiber"],
     allergens: ["Sesame"],
     ingredients: [

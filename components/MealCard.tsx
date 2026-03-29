@@ -72,8 +72,11 @@ export default function MealCard({ meal, showDay = false }: MealCardProps) {
               </p>
             </div>
             <div className="text-right text-xs text-stone-400">
-              <p>{meal.prepTime} prep</p>
-              <p>{meal.cookTime} cook</p>
+              {meal.cookTime === "0 min" ? (
+                <p>Ready to serve</p>
+              ) : (
+                <p>{meal.cookTime}</p>
+              )}
             </div>
           </div>
         </div>
