@@ -8,7 +8,7 @@ import { getPriceByServing } from "@/lib/utils";
 interface CartStore {
   items: CartItem[];
   isOpen: boolean;
-  addItem: (meal: Meal, servingSize: ServingSize) => void;
+  addItem: (meal: Meal, servingSize: ServingSize, openSidebar?: boolean) => void;
   removeItem: (itemId: string) => void;
   updateQuantity: (itemId: string, quantity: number) => void;
   clearCart: () => void;
@@ -28,7 +28,7 @@ export const useCartStore = create<CartStore>()(
       items: [],
       isOpen: false,
 
-      addItem: (meal, servingSize) => {
+      addItem: (meal, servingSize, openSidebar = true) => {
         const id = makeItemId(meal.id, servingSize);
         const existing = get().items.find((i) => i.id === id);
         if (existing) {
@@ -36,12 +36,12 @@ export const useCartStore = create<CartStore>()(
             items: state.items.map((i) =>
               i.id === id ? { ...i, quantity: i.quantity + 1 } : i
             ),
-            isOpen: true,
+            isOpen: openSidebar ? true : state.isOpen,
           }));
         } else {
           set((state) => ({
             items: [...state.items, { id, meal, servingSize, quantity: 1 }],
-            isOpen: true,
+            isOpen: openSidebar ? true : state.isOpen,
           }));
         }
       },
